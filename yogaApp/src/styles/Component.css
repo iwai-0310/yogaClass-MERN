@@ -1,0 +1,17 @@
+/* header section styles */
+.header {
+    background-color: #1f2937; /* Set your desired background color */
+    color: white; /* Set your desired text color */
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+  }
+/* search section to remove root padding */
+#searchsec{
+  padding: 0;
+}
+
