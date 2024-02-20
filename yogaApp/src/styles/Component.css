@@ -15,3 +15,13 @@
   padding: 0;
 }
 
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  /* Add other styles as needed */
+  /* Example: opacity: 0.8; transition: opacity 0.3s ease; */
+}
+
