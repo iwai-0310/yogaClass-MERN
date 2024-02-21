@@ -10,8 +10,6 @@ function App() {
     <div >
     <Header/>                                                                                              
     <Search/>
-    <Search/>
-    <Search/>
     </div>
   )
 }
