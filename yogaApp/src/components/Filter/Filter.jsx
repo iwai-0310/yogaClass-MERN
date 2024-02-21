@@ -1,6 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const Filter = () => {
+
+    // add state to handle select value
+    const [selectedItem, setSelectedItem] = useState('Filter by ...');
+
+    //update the value 
+    const handleSelect = (option) => {
+        setSelectedItem(option); 
+    };
+
     const showDropdownOptions = () => {
         const options = document.getElementById('options');
         const arrowUp = document.getElementById('arrow-up');
@@ -16,7 +25,7 @@ const Filter = () => {
                     onClick={showDropdownOptions}
                     className="flex flex-row justify-between w-48 px-2 py-2 text-gray-700 bg-white border-2 border-white rounded-md shadow focus:outline-none focus:border-blue-600"
                 >
-                    <span className="select-none">Filter by</span>
+                    <span className="select-none">{selectedItem}</span>
                     <svg
                         id="arrow-down"
                         className="hidden w-6 h-6 stroke-current"
@@ -49,36 +58,42 @@ const Filter = () => {
                     <a
                         href="#"
                         className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                        onClick={()=>handleSelect('Name (Asc)')}
                     >
                         Name (Asc)
                     </a>
                     <a
                         href="#"
                         className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                        onClick={()=>handleSelect('Name (Desc)')}
                     >
                         Name (Desc)
                     </a>
                     <a
                         href="#"
                         className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                        onClick={()=>handleSelect('Price (Asc)')}
                     >
                         Price (Asc)
                     </a>
                     <a
                         href="#"
                         className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                        onClick={()=>handleSelect('Price (Desc)')}
                     >
                         Price (Desc)
                     </a>
                     <a
                         href="#"
                         className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                        onClick={()=>handleSelect('Time (Asc)')}
                     >
                         Time (Asc)
                     </a>
                     <a
                         href="#"
                         className="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white"
+                        onClick={()=>handleSelect('Time (Desc)')}
                     >
                         Time (Desc)
                     </a>
