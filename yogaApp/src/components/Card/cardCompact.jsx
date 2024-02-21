@@ -8,7 +8,7 @@ const cardCompact = ({price,title,imgUrl}) => {
                 <div class="relative pb-48 overflow-hidden">
                      {/* use props.imgUrl to fill */}
                     <img class="absolute inset-0 h-full w-full object-cover" 
-                    src={placeHolderImg}
+                    src={imgUrl}
                      alt="" />
                 </div>
 

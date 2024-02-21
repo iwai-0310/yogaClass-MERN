@@ -20,14 +20,15 @@ const home = () => {
     <div>
         <Search/>
         {/* Map the card with data from state(cardsData) */}
+        <div className='flex flex-wrap -mx-4'>
         {cardsData.map((card) => (
         <Cardcc
           key={card.id}
           title={card.title}
           price={card.price}
-          imgurl={card.imgUrl} 
+          imgUrl={card.image} 
         />
-      ))}
+      ))}</div>
     </div>
   )
 }
