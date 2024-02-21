@@ -17,7 +17,7 @@
         "live": false,
         "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thubmnails1.png?v=1706359181"
     },
-    // 3 done
+    
     {
         "title": "20-Yoga Therapies for Lifestyle Diseases",
         "price": 999,
@@ -42,7 +42,7 @@
         "live": false,
         "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails.png?v=1705406276"
     },
-    // 7 done
+    
     {
         "title": "50 Hours Pranayama (breathwork) English",
         "price": 2999,
@@ -67,7 +67,7 @@
         "live": false,
         "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails.jpg?v=1705381971"
     },
-    // 11 done
+    
     {
         "title": "Daily Yoga For Everyone",
         "price": 1999,
@@ -92,7 +92,7 @@
         "live": false,
         "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/with-30-Yoga-Guru-in-30-Days.jpg?v=1704287947"
     },
-    //15 done
+    
     {
         "title": "Pranayama 2-in-1 Program Bundle",
         "price": 1799,
@@ -123,7 +123,7 @@
         "live": false,
         "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails_ee5cca3b-0407-401c-92d4-98523389bb75.jpg?v=1706092192"
     },
-    //20 done
+    
     {
         "title": "Yoga for Hypertension and Cardio",
         "price": 1399,
@@ -141,5 +141,5 @@
         "price": 699,
         "live": false,
         "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails3.jpg?v=1706101893"
-    },
+    }
 ]

@@ -6,8 +6,6 @@ const connectDB = (url) => {
   // Use  provided URL to make connection
   return mongoose.connect(url, {
     useNewUrlParser: true, 
-    useCreateIndex: true, 
-    useFindAndModify: false, 
     useUnifiedTopology: true, 
   });
 };
