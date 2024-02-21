@@ -5,23 +5,17 @@
     padding: 0.4rem 1rem 0.4rem 1rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 1rem 0 1rem;
+    
+    overflow-x: hidden;
   }
 /* search section to remove root padding */
 #searchsec{
   padding: 0;
+  flex: 1;
 }
-
-.is-sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-  /* Add other styles as needed */
-  /* Example: opacity: 0.8; transition: opacity 0.3s ease; */
+.container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
 }
 
