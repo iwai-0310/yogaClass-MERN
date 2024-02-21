@@ -1,8 +1,20 @@
+// async errors
+require('dotenv').config()
+require('express-async-errors')
+//import express
 const express = require('express')
 const mongoose = require('mongoose')
 
 // create app variable as express instant
 const app = express()
+//add CORS
+const cors=require('cors');
+//connect to the db
+const connectDB=require("./db/connect")
+
+//add middleware for not-found and error
+const notFoundMiddleware=require('./middleware/not-found');
+const errorMiddleware=require('./middleware/error-handler');
 
 //routes here
 app.get('/', (req, res) => {
