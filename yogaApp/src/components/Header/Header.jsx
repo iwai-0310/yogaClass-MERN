@@ -7,7 +7,7 @@ const Header = () => {
   
 
     return (      
-            <header className={`header h-16 border-x-2 border-b-2 mb-1 w-dvh  flex justify-between items-center`}>
+            <header className={`header h-16 border-x-2 border-b-2 mb-1 w-dvh  flex justify-between items-center `}>
                 {/* left area of the header for logo */}
                 <div className="flex items-center mx-2">
                     {/* add logo image here */}

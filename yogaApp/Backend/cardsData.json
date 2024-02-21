@@ -1,145 +1,145 @@
 [
     {
-        "title": "100-Days Weight Loss Program for everyone- Hindi- 1 year",
-        "price": 2999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/WeightLossProductBanner.jpg?v=1706333905"
+        "name": "Dhanisa",
+        "price": 2200,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/f59b2789-39dc-481b-9a88-4fedc1331161.jpg"
     },
     {
-        "title": "20 LIFESTYLE AILMENTS - HEALING WITH YOGA",
-        "price": 1999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/20-LIFESTYLE-AILMENTS---HEALING-WITH-YOGA.jpg?v=1704263466"
+        "name": "Yogacharya ravish rathi",
+        "price": 1499,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/e22ee744-c4d3-44bf-a592-dc29463ae0cb.jpg"
     },
     {
-        "title": "20-Hrs pranayama for Holistic Wellness Daily Practice",
-        "price": 1999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thubmnails1.png?v=1706359181"
+        "name": "Kairav",
+        "price": 500,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/489df8cc-5b96-4812-8e24-2bceda8c0a68.jpg"
     },
     
     {
-        "title": "20-Yoga Therapies for Lifestyle Diseases",
+        "name": "Ankit Sharma",
         "price": 999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails_16c881f0-7f66-46c1-85ad-4ec06f8cc96c.jpg?v=1706353171"
+        "time": 45,
+        "image": "https://do-yoga.s3.amazonaws.com/af5d04cb-a9cc-44c1-a7ac-dde522d00a48.jpg"
     },
     {
-        "title": "30 Days Weight Loss Essential with yoga",
-        "price": 999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/WeightEssentialwithyoga.jpg?v=1706359326"
+        "name": "Priya",
+        "price": 600,
+        "time": 30,
+        "image": "https://do-yoga.s3.amazonaws.com/67839b41-dbbd-4f18-9e9b-2e1c8278ddc4.jpg"
     },
     {
-        "title": "30 Days yoga For Beginner",
+        "name": "Vishesh Khurnan",
+        "price": 7000,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/ac9810f0-c2ba-4763-ba0e-4744be1fab3d.jpg"
+    },
+    {
+        "name": "Ayush Tiwari",
+        "price": 450,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/162/3d3d3e5b-ad25-4358-ab89-34b74dc710d5.jpg"
+    },
+    
+    {
+        "name": "Bhawna",
+        "price": 500,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/834/2426881c-b06d-4072-b9ba-fb915273d929.jpg"
+    },
+    {
+        "name": "Sushmitha Shrikanth",
+        "price": 1500,
+        "time": 75,
+        "image": "https://do-yoga.s3.amazonaws.com/8abbf926-4250-42ac-8241-434373756b0a.jpg"
+    },
+    {
+        "name": "Anoop Pandey",
+        "price": 800,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/5b44128a-e37d-48e1-ae8b-f742a06a0a50.jpg"
+    },
+    {
+        "name": "Akhila Yadav",
         "price": 499,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/WhatsAppImage2024-01-13at7.19.19PM.jpg?v=1705325399"
-    },
-    {
-        "title": "30- Days Pranayama for Holistic Wellness",
-        "price": 699,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails.png?v=1705406276"
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/af79d508-340f-4cb3-875e-15d46e2238c5.jpg"
     },
     
     {
-        "title": "50 Hours Pranayama (breathwork) English",
-        "price": 2999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/50-hrs-ProductBanner.jpg?v=1706359225"
+        "name": "Kiara yoga school.",
+        "price": 999,
+        "time": 45,
+        "image": "https://do-yoga.s3.amazonaws.com/7c9506c7-59c6-40e9-959a-eda4b8908183.jpg"
     },
     {
-        "title": "50 Hours Yoga Foundation",
-        "price": 1999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/50-Hours-Yoga-Foundation.jpg?v=1706359257"
+        "name": "Shubhra Moni",
+        "price": 600,
+        "time": 45,
+        "image": "https://do-yoga.s3.amazonaws.com/aa3ad0c2-c6f3-4149-beb5-25f7f363458a.jpg"
     },
     {
-        "title": "Certificate in Chakra healing – 7 Chakra healing",
-        "price": 9999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails_4f25c44d-13fe-4110-bc36-137c43bd3c2c.jpg?v=1706359870"
+        "name": "Akash Awari",
+        "price": 500,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/5fef9088-c674-437c-8e8a-d179f18599dc.jpg"
     },
     {
-        "title": "Chronic Pain Management With Yoga",
-        "price": 699,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails.jpg?v=1705381971"
-    },
-    
-    {
-        "title": "Daily Yoga For Everyone",
-        "price": 1999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails_2031e935-ac1f-4eab-9e3e-be42bb023995.jpg?v=1706346714"
-    },
-    {
-        "title": "Foundation 2-in-1 Program Bundle",
-        "price": 1099,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/WhatsAppImage2024-01-16at2.53.24PM_1.jpg?v=1705398962"
-    },
-    {
-        "title": "Foundation 2-in-1 Program Bundle",
-        "price": 1099,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/Artboard2_2.jpg?v=1705414144"
-    },
-    {
-        "title": "Holistic Wellness with 30 Yoga Guru in 30 Days",
-        "price": 1999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/with-30-Yoga-Guru-in-30-Days.jpg?v=1704287947"
+        "name": "Kamaljeet",
+        "price": 599,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/37/907eaad7-613c-4d51-a1f2-3043bed142e9.jpg"
     },
     
     {
-        "title": "Pranayama 2-in-1 Program Bundle",
-        "price": 1799,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/Artboard1_1.jpg?v=1705414076"
+        "name": "Akhilesh Bodhi ji",
+        "price": 1000,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/641/1c99a181-9d5f-4645-a74b-772ee3314170.jpg"
     },
     {
-        "title": "Ultimate Yog Mastery 1-Year Master Course",
-        "price": 4999,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/About-Image-2_32d025ef-9638-4e43-93a4-aed48a5d1931.jpg?v=1706358328"
+        "name": "Niyata Sahu",
+        "price": 899,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/243703062_250850300295384_4719412799220040006_n.jpg"
     },
     {
-        "title": "Weight Loss 2-in-1 Program Bundle",
-        "price": 1399,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/Artboard3_2.jpg?v=1705414180"
+        "name": "Darshana Jadhav",
+        "price": 400,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/6d0807a9-304e-4a39-8144-958fa3262256.jpg"
     },
     {
-        "title": "Yoga For Depression And Stress",
-        "price": 699,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/Yoga-for-Depression-and-Stress.webp?v=1706098053"
+        "name": "Rekha rankawat",
+        "price": 399,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/dc77fad9-a9cf-4e95-b30e-405106cb9f21.jpg"
     },
     {
-        "title": "Yoga for Diabetes Daily Practice 30 Minutes",
-        "price": 699,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails_ee5cca3b-0407-401c-92d4-98523389bb75.jpg?v=1706092192"
+        "name": "Francesca",
+        "price": 500,
+        "time": 75,
+        "image": "https://do-yoga.s3.amazonaws.com/da27ec91-7af9-4517-9b18-961668befcb7.jpg"
     },
     
     {
-        "title": "Yoga for Hypertension and Cardio",
-        "price": 1399,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/Yoga-for-Hypertension-and-Cardio.webp?v=1706357502"
+        "name": "Mitali Kothiyal",
+        "price": 1000,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/1480b254-9f00-402d-adfa-3a4cf5459487.jpg"
     },
     {
-        "title": "Yoga For Mental Health",
-        "price": 699,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails_b6b3eb13-fb49-4a19-9a78-246c9b4155a2.jpg?v=1704522883"
+        "name": "Psygini",
+        "price": 850,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/60/82773f15-0ab1-42f9-8c3b-5822af297fad.jpg"
     },
     {
-        "title": "Yoga For Respiratory System And Immunity Boosting",
-        "price": 699,
-        "live": false,
-        "image": "https://cdn.shopify.com/s/files/1/0676/7394/8419/files/thumbnails3.jpg?v=1706101893"
+        "name": "Hemadri",
+        "price": 500,
+        "time": 60,
+        "image": "https://do-yoga.s3.amazonaws.com/721/a74b7c3f-b5e5-4c15-a7e8-0c3ba5c498fb.jpg"
     }
 ]

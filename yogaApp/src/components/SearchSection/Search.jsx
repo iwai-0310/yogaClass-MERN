@@ -5,14 +5,7 @@ import SearchBox from '../SearchSection/SearchBox';
 
 const Search = () => {
   return (
-    // <div id='searchsec' className='w-dvh h-dvh bg-gray-300 border-x-2 border-b-2  flex justify-center items-center '>
-    //   {/* add the banner image here */}
-    //   <img  src={banner} alt="banner image here"  />
-    //   {/* Center the search box */}
-    //   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-5/6">
-    //     <SearchBox />
-    //   </div>
-    // </div>
+    
     <div id="searchsec" className="w-full h-screen bg-gray-300 flex justify-center items-center">
     {/* Add the banner image as a background */}
     <div

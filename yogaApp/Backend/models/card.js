@@ -12,14 +12,14 @@ const cardSchema = new mongoose.Schema({
     required: [true, 'Card price must be provided'],
   },
   // variable to hold class title
-  title: {
+  name: {
     type: String,
-    required: [true, 'Card title must be provided'],
+    required: [true, 'Card name must be provided'],
   },
   //variable to hold  class live session or recorded
-  live: {
-    type: Boolean,
-    required: [true, 'Card live status must be specified'],
+  time: {
+    type: Number,
+    required: [true, 'Card Time must be specified'],
   },
 });
 
