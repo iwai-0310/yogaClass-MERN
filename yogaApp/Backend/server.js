@@ -6,34 +6,43 @@ const express = require('express')
 const mongoose = require('mongoose')
 
 // create app variable as express instant
-const app = express()
+const app = express();
 //add CORS
 const cors=require('cors');
 //connect to the db
 const connectDB=require("./db/connect")
 
+const cardsRouter=require('./routes/cards')
+
 //add middleware for not-found and error
 const notFoundMiddleware=require('./middleware/not-found');
 const errorMiddleware=require('./middleware/error-handler');
 
-//routes here
-app.get('/', (req, res) => {
-    //send greetings to Client
-    res.send('Hello NODE API')
-})
+//use cors with express instance
+app.use(express.json());
 
+//cors support
+app.use(cors());
 
-
-//connect to mongoose if success print success else log the error
-mongoose.connect('mongodb+srv://admin:qwerty12345@yogaappapi.owv17ar.mongodb.net/YogaCards?retryWrites=true&w=majority&appName=YogaAppAPI')
-    .then(() => {
-         console.log('connected to MongoDB')
-        //listen to port 3000
-        app.listen(3000, () => {
-            console.log('Node API running on port 3000');
-        })
-       
-    })
-    .catch((error) => {
-        console.log(error)
-    })
+app.get("/",(req,res)=>{
+    res.send('<h1>Cards API</h1><a href="/api/v1/products"> products routes</a>')
+  })
+  
+  app.use("/api/v1/cards",cardsRouter)
+  
+  //products route
+  app.use(notFoundMiddleware);
+  app.use(errorMiddleware);
+  
+  const port=process.env.PORT || 3000;
+  
+  const start=async()=>{
+    try{
+      await connectDB(process.env.MONGO_URI)
+      app.listen(port,console.log('Server is listening oon 3000'))
+    }
+    catch(err){
+      console.log(err);
+    }
+  }
+  start();
