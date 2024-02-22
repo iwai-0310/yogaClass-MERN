@@ -13,6 +13,7 @@ const router = createBrowserRouter([
     children:[
       {path: "/",element: <Home/>},
       {path: "/explore",element: <Explore/>},
+      { path: "/card/:id", element: <CardBookingView /> },
     ]
   },
 ]);
