@@ -1,11 +1,11 @@
 import React from 'react'
-
+import { useParams } from "react-router-dom";
 const CardBookingView = () => {
 
     //access the product id
-  const { id } = useParams();
+//   const { id } = useParams();
   return (
-    <div>CardBookingView</div>
+    <div><h1>this </h1></div>
   )
 }
 

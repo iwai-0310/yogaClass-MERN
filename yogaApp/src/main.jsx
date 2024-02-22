@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from '../src/pages/home.jsx'
 import Explore from '../src/pages/explore.jsx'
+import CardBookingView from './pages/CardBookingView.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
     children:[
       {path: "/",element: <Home/>},
       {path: "/explore",element: <Explore/>},
-      { path: "/card/:id", element: <CardBookingView /> },
+      { path: "/book/:id", element: <CardBookingView /> },
     ]
   },
 ]);
