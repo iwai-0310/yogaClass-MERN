@@ -32,11 +32,12 @@ const explore = () => {
         <div className='flex flex-wrap -mx-4 bg-gray-300 mx-2'>
         {cardsData.map((card) => (
         <Cardcc
-          key={card.id}
+          key={card._id}
           title={card.title}
           price={card.price}
           imgUrl={card.image} 
           name={card.name}
+          id={card._id}
         />
       ))}</div>
       </div>

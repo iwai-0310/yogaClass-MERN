@@ -24,11 +24,12 @@ const home = () => {
         <div className='flex flex-wrap -mx-4 bg-gray-300'>
         {cardsData.map((card) => (
         <Cardcc
-          key={card.id}
-          title={card.title}
-          price={card.price}
-          imgUrl={card.image} 
-          name={card.name}
+        key={card._id}
+        price={card.price}
+        time={card.time}
+        name={card.name}
+        imgUrl={card.image}
+        id={card._id} // pass the _id as id
         />
       ))}</div>
     </div>
