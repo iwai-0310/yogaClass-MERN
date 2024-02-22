@@ -33,7 +33,7 @@ const explore = () => {
         {cardsData.map((card) => (
         <Cardcc
           key={card._id}
-          title={card.title}
+          time={card.time}
           price={card.price}
           imgUrl={card.image} 
           name={card.name}

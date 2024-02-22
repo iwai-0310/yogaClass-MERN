@@ -12,15 +12,15 @@ const cardCompact = ({price,time,name,imgUrl,id}) => {
 
                 <div className="p-4 border-t border-b text-xs text-gray-700 flex items-center justify-between">
                     <span className="mb-1 font-semibold">{time} mins</span>
-                    <span className="mb-1 font-semibold">${price}</span>
+                    <span className="mb-1 font-semibold">Rs.{price}</span>
                     {/* <span className="mb-1 font-semibold">{id}</span> */}
                     <Link to={`/book/${id}`}>
-                        <button>
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         Book
                         </button></Link>
                 </div>
-                <div className="p-4 flex items-center text-sm text-gray-600">
-                    <span className="ml-2">{name}</span>
+                <div className="p-4 flex items-center text-sm text-gray-600 flex justify-center">
+                    <span className="ml-2 font-black ">{name}</span>
                 </div>
             </a>
         </div>
