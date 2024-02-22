@@ -19,7 +19,7 @@ const Filter = () => {
         arrowDown.classList.toggle('hidden');
     };
   return (
-    <div className="flex flex-row justify-center min-h-screen pt-4 bg-gray-100 min-w-screen">
+    <div className="flex flex-row justify-center min-h-screen pt-4 bg-transparent min-w-screen">
             <div className="flex-none p-2">
                 <button
                     onClick={showDropdownOptions}

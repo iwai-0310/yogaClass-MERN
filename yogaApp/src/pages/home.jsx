@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Search from '../components/SearchSection/Search';
 import Cardcc from '../components/Card/cardCompact'
 
+//api endpoint for all card data
 const apiForCardData='http://localhost:3000/api/v1/cards';
 
 const home = () => {
